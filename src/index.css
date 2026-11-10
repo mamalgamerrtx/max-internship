@@ -10,3 +10,28 @@
 @import "./css/styles/style.css";
 @import "./css/colors/scheme-01.css";
 @import "./css/styles/coloring.css";
+
+/* Skeleton placeholders shaped like the images they stand in for */
+.nft_coll_pp .skeleton-box {
+  display: block;
+  border: solid 5px #ffffff;
+}
+
+.nft__item_wrap .skeleton-box {
+  height: auto;
+  aspect-ratio: 1 / 1;
+}
+
+.de_countdown .skeleton-box {
+  vertical-align: middle;
+}
+
+.item-details-skeleton-image .skeleton-box {
+  height: auto;
+  aspect-ratio: 1 / 1;
+}
+
+.item_info p .skeleton-box {
+  display: block;
+  margin-bottom: 8px;
+}
