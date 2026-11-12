@@ -17,15 +17,6 @@
   border: solid 5px #ffffff;
 }
 
-.nft__item_wrap .skeleton-box {
-  height: auto;
-  aspect-ratio: 1 / 1;
-}
-
-.de_countdown .skeleton-box {
-  vertical-align: middle;
-}
-
 .item-details-skeleton-image .skeleton-box {
   height: auto;
   aspect-ratio: 1 / 1;
