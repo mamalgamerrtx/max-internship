@@ -10,3 +10,14 @@
 @import "./css/styles/style.css";
 @import "./css/colors/scheme-01.css";
 @import "./css/styles/coloring.css";
+
+/* Skeleton placeholders shaped like the images they stand in for */
+.item-details-skeleton-image .skeleton-box {
+  height: auto;
+  aspect-ratio: 1 / 1;
+}
+
+.item_info p .skeleton-box {
+  display: block;
+  margin-bottom: 8px;
+}
