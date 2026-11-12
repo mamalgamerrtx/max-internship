@@ -16,13 +16,3 @@
   display: block;
   border: solid 5px #ffffff;
 }
-
-.item-details-skeleton-image .skeleton-box {
-  height: auto;
-  aspect-ratio: 1 / 1;
-}
-
-.item_info p .skeleton-box {
-  display: block;
-  margin-bottom: 8px;
-}
