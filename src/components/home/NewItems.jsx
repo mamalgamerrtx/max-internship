@@ -1,14 +1,16 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Skeleton from "../UI/Skeleton";
+import Countdown from "../UI/Countdown";
 import axios from "axios";
 import OwlCarousel from "react-owl-carousel";
 
 const URL =
   "https://us-central1-nft-cloud-functions.cloudfunctions.net/newItems";
 
+// rewind instead of loop: Owl's loop clones cards as plain HTML, which would freeze their countdowns.
 const carouselOptions = {
-  loop: true,
+  rewind: true,
   margin: 10,
   nav: true,
   dots: false,
@@ -94,7 +96,7 @@ const NewItems = () => {
                         <i className="fa fa-check"></i>
                       </Link>
                     </div>
-                    <div className="de_countdown">5h 30m 32s</div>
+                    {item.expiryDate && <Countdown expiryDate={item.expiryDate} />}
 
                     <div className="nft__item_wrap">
                       <div className="nft__item_extra">
