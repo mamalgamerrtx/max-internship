@@ -1,0 +1,11 @@
+node_modules
+.firebase/
+.firebaserc
+build/
+firebase.json
+
+# macOS
+.DS_Store
+
+# Exported Claude Code conversation
+2026-11-11-214524-i-want-to-make-the-hot-collections-component-dyna.txt
