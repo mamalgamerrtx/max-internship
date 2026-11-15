@@ -45,14 +45,14 @@ const NewItems = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
-            <div className="text-center">
+            <div className="text-center" data-aos="fade-up">
               <h2>New Items</h2>
               <div className="small-border bg-color-2"></div>
             </div>
           </div>
+          <div className="col-lg-12" data-aos="fade-up" data-aos-delay="200">
           {loading
             ? (
-              <div className="col-lg-12">
                 <OwlCarousel key="skeleton" className="owl-theme" {...carouselOptions}>
                   {new Array(4).fill(0).map((_, index) => (
                   <div className="nft__item" key={index}>
@@ -78,10 +78,8 @@ const NewItems = () => {
                   </div>
                   ))}
                 </OwlCarousel>
-              </div>
             )
             : (
-              <div className="col-lg-12">
                 <OwlCarousel key="loaded" className="owl-theme" {...carouselOptions}>
                   {items.map((item) => (
                   <div className="nft__item" key={item.id}>
@@ -138,8 +136,8 @@ const NewItems = () => {
                   </div>
                   ))}
                 </OwlCarousel>
-              </div>
             )}
+          </div>
         </div>
       </div>
     </section>
