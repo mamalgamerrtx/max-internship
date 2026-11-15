@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/max-internship/static/css/main.81a2d2bf.css",
-    "main.js": "/max-internship/static/js/main.fd3c8076.js",
+    "main.css": "/max-internship/static/css/main.f0f85e2f.css",
+    "main.js": "/max-internship/static/js/main.9e168076.js",
     "static/js/787.0979ab29.chunk.js": "/max-internship/static/js/787.0979ab29.chunk.js",
     "static/media/icofont.woff": "/max-internship/static/media/icofont.dad3accba068281878f1.woff",
     "static/media/icofont.woff2": "/max-internship/static/media/icofont.9c33516aab48c61e3081.woff2",
@@ -24,12 +24,12 @@
     "static/media/bg-shape-1.jpg": "/max-internship/static/media/bg-shape-1.ba54a8e086d0e99d912d.jpg",
     "index.html": "/max-internship/index.html",
     "static/media/ethereum.svg": "/max-internship/static/media/ethereum.df265e367364f285053a1285ad8d418d.svg",
-    "main.81a2d2bf.css.map": "/max-internship/static/css/main.81a2d2bf.css.map",
-    "main.fd3c8076.js.map": "/max-internship/static/js/main.fd3c8076.js.map",
+    "main.f0f85e2f.css.map": "/max-internship/static/css/main.f0f85e2f.css.map",
+    "main.9e168076.js.map": "/max-internship/static/js/main.9e168076.js.map",
     "787.0979ab29.chunk.js.map": "/max-internship/static/js/787.0979ab29.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.81a2d2bf.css",
-    "static/js/main.fd3c8076.js"
+    "static/css/main.f0f85e2f.css",
+    "static/js/main.9e168076.js"
   ]
 }
